@@ -13,7 +13,7 @@
 </div>
 @endsection
 @section('scripts')
-<script src="https://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario&key={{ $_ENV['MAP_API_KEY'] }}" defer></script>
 <script src="js/mapa.js"></script>
+<script src="https://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario&key={{ $_ENV['MAP_API_KEY'] }}" defer></script>
 @endsection
 
